@@ -1,0 +1,518 @@
+{
+    "1": [
+        "Air Force"
+    ],
+    "2": [
+        "Akron"
+    ],
+    "3": [
+        "Alabama"
+    ],
+    "4": [
+        "Appalachian State"
+    ],
+    "5": [
+        "Arizona"
+    ],
+    "6": [
+        "Arizona State"
+    ],
+    "7": [
+        "Arkansas"
+    ],
+    "8": [
+        "Arkansas State"
+    ],
+    "9": [
+        "Army"
+    ],
+    "10": [
+        "Auburn"
+    ],
+    "11": [
+        "Ball State"
+    ],
+    "12": [
+        "Baylor"
+    ],
+    "13": [
+        "Boise State"
+    ],
+    "14": [
+        "Boston College"
+    ],
+    "15": [
+        "Bowling Green",
+        "Bowling Green State"
+    ],
+    "16": [
+        "Buffalo"
+    ],
+    "17": [
+        "Brigham Young"
+    ],
+    "18": [
+        "Central Michigan"
+    ],
+    "19": [
+        "California"
+    ],
+    "20": [
+        "Charlotte"
+    ],
+    "21": [
+        "Cincinnati"
+    ],
+    "22": [
+        "Clemson"
+    ],
+    "23": [
+        "Coastal Carolina"
+    ],
+    "24": [
+        "Colorado"
+    ],
+    "25": [
+        "Colorado State"
+    ],
+    "26": [
+        "Connecticut"
+    ],
+    "27": [
+        "Duke"
+    ],
+    "28": [
+        "Eastern Michigan"
+    ],
+    "29": [
+        "East Carolina"
+    ],
+    "30": [
+        "Florida Atlantic"
+    ],
+    "31": [
+        "Florida Intl",
+        "Florida International"
+    ],
+    "32": [
+        "Florida"
+    ],
+    "33": [
+        "Florida State"
+    ],
+    "34": [
+        "Fresno State"
+    ],
+    "35": [
+        "Georgia"
+    ],
+    "36": [
+        "Georgia Southern"
+    ],
+    "37": [
+        "Georgia State"
+    ],
+    "38": [
+        "Georgia Tech"
+    ],
+    "39": [
+        "Hawaii"
+    ],
+    "40": [
+        "Houston"
+    ],
+    "41": [
+        "Idaho"
+    ],
+    "42": [
+        "Illinois"
+    ],
+    "43": [
+        "Indiana"
+    ],
+    "44": [
+        "Iowa"
+    ],
+    "45": [
+        "Iowa State"
+    ],
+    "46": [
+        "Kansas"
+    ],
+    "47": [
+        "Kansas State"
+    ],
+    "48": [
+        "Kent State"
+    ],
+    "49": [
+        "Kentucky"
+    ],
+    "50": [
+        "Louisiana Tech"
+    ],
+    "51": [
+        "UL-Lafayette",
+        "Louisiana"
+    ],
+    "52": [
+        "UL-Monroe",
+        "Louisiana-Monroe"
+    ],
+    "53": [
+        "Louisville"
+    ],
+    "54": [
+        "Louisiana State",
+        "LSU"
+    ],
+    "55": [
+        "Marshall"
+    ],
+    "56": [
+        "Maryland"
+    ],
+    "57": [
+        "Massachusetts"
+    ],
+    "58": [
+        "Memphis"
+    ],
+    "59": [
+        "Miami-Florida",
+        "Miami (FL)"
+    ],
+    "60": [
+        "Miami-Ohio",
+        "Miami (OH)"
+    ],
+    "61": [
+        "Michigan"
+    ],
+    "62": [
+        "Michigan State"
+    ],
+    "63": [
+        "Minnesota"
+    ],
+    "64": [
+        "Mississippi",
+        "Ole Miss"
+    ],
+    "65": [
+        "Mississippi State"
+    ],
+    "66": [
+        "Missouri"
+    ],
+    "67": [
+        "Middle Tennessee",
+        "Middle Tennessee State"
+    ],
+    "68": [
+        "Northern Illinois"
+    ],
+    "69": [
+        "No Carolina State",
+        "North Carolina State"
+    ],
+    "70": [
+        "Navy"
+    ],
+    "71": [
+        "Nebraska"
+    ],
+    "72": [
+        "Nevada-Reno",
+        "Nevada"
+    ],
+    "73": [
+        "New Mexico"
+    ],
+    "74": [
+        "New Mexico State"
+    ],
+    "75": [
+        "North Carolina"
+    ],
+    "76": [
+        "North Texas"
+    ],
+    "77": [
+        "Northwestern"
+    ],
+    "78": [
+        "Notre Dame"
+    ],
+    "79": [
+        "Ohio"
+    ],
+    "80": [
+        "Ohio State"
+    ],
+    "81": [
+        "Oklahoma"
+    ],
+    "82": [
+        "Oklahoma State"
+    ],
+    "83": [
+        "Old Dominion"
+    ],
+    "84": [
+        "Oregon"
+    ],
+    "85": [
+        "Oregon State"
+    ],
+    "86": [
+        "Penn State"
+    ],
+    "87": [
+        "Pittsburgh",
+        "Pitt"
+    ],
+    "88": [
+        "Purdue"
+    ],
+    "89": [
+        "Rice"
+    ],
+    "90": [
+        "Rutgers"
+    ],
+    "91": [
+        "San Diego State"
+    ],
+    "92": [
+        "San Jose State"
+    ],
+    "93": [
+        "S-M-U",
+        "SMU"
+    ],
+    "94": [
+        "South Alabama"
+    ],
+    "95": [
+        "South Carolina"
+    ],
+    "96": [
+        "South Florida"
+    ],
+    "97": [
+        "Southern Cal",
+        "USC"
+    ],
+    "98": [
+        "Southern Miss",
+        "Southern Mississippi"
+    ],
+    "99": [
+        "Stanford"
+    ],
+    "100": [
+        "Syracuse"
+    ],
+    "101": [
+        "Texas Christian"
+    ],
+    "102": [
+        "Temple"
+    ],
+    "103": [
+        "Tennessee"
+    ],
+    "104": [
+        "Texas"
+    ],
+    "105": [
+        "Texas A+M",
+        "Texas A&M"
+    ],
+    "106": [
+        "Texas State"
+    ],
+    "107": [
+        "Texas Tech"
+    ],
+    "108": [
+        "Toledo"
+    ],
+    "109": [
+        "Troy"
+    ],
+    "110": [
+        "Tulane"
+    ],
+    "111": [
+        "Tulsa"
+    ],
+    "112": [
+        "U-A-B",
+        "UAB"
+    ],
+    "113": [
+        "U-C-F",
+        "UCF"
+    ],
+    "114": [
+        "U.C.L.A.",
+        "UCLA"
+    ],
+    "115": [
+        "Nevada-Las Vegas"
+    ],
+    "116": [
+        "Utah"
+    ],
+    "117": [
+        "Utah State"
+    ],
+    "118": [
+        "UTEP"
+    ],
+    "119": [
+        "Texas-San Antonio",
+        "UTSA"
+    ],
+    "120": [
+        "Vanderbilt"
+    ],
+    "121": [
+        "Virginia"
+    ],
+    "122": [
+        "Virginia Tech"
+    ],
+    "123": [
+        "Western Kentucky"
+    ],
+    "124": [
+        "Western Michigan"
+    ],
+    "125": [
+        "Wake Forest"
+    ],
+    "126": [
+        "Washington"
+    ],
+    "127": [
+        "Washington State"
+    ],
+    "128": [
+        "West Virginia"
+    ],
+    "129": [
+        "Wisconsin"
+    ],
+    "130": [
+        "Wyoming"
+    ],
+    "131": [
+        "Brown"
+    ],
+    "132": [
+        "Fullerton State",
+        "Cal State Fullerton"
+    ],
+    "133": [
+        "Chattanooga"
+    ],
+    "134": [
+        "The Citadel",
+        "Citadel"
+    ],
+    "135": [
+        "Colgate"
+    ],
+    "136": [
+        "Columbia"
+    ],
+    "137": [
+        "Cornell"
+    ],
+    "138": [
+        "Dartmouth"
+    ],
+    "139": [
+        "Drake"
+    ],
+    "140": [
+        "East Tennessee St",
+        "East Tennessee State"
+    ],
+    "141": [
+        "Florida A+M",
+        "Florida A&M"
+    ],
+    "142": [
+        "Harvard"
+    ],
+    "143": [
+        "Holy Cross"
+    ],
+    "144": [
+        "Illinois State"
+    ],
+    "145": [
+        "Indiana State"
+    ],
+    "146": [
+        "Lamar"
+    ],
+    "147": [
+        "Long Beach State"
+    ],
+    "148": [
+        "McNeese State"
+    ],
+    "149": [
+        "Northwestern State"
+    ],
+    "150": [
+        "Pacific"
+    ],
+    "151": [
+        "Pennsylvania"
+    ],
+    "152": [
+        "Princeton"
+    ],
+    "153": [
+        "Richmond"
+    ],
+    "154": [
+        "Southern Illinois"
+    ],
+    "155": [
+        "Texas-Arlington"
+    ],
+    "156": [
+        "Villanova"
+    ],
+    "157": [
+        "Virginia Military",
+        "Virginia Military Institute"
+    ],
+    "158": [
+        "West Texas A+M",
+        "West Texas A&M"
+    ],
+    "159": [
+        "Western Carolina"
+    ],
+    "160": [
+        "Wichita State"
+    ],
+    "161": [
+        "William + Mary",
+        "William & Mary"
+    ],
+    "162": [
+        "Yale"
+    ],
+    "163": [
+        "Furman"
+    ]
+}

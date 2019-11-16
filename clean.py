@@ -11,7 +11,7 @@ pd.set_option('display.max_columns', None)
 with open('div1A.json') as js1:
     div1_json = json.load(js1)
 
-with open('numeric.json') as js2:
+with open('comparison/numeric.json') as js2:
     num_json = json.load(js2)
 
 
