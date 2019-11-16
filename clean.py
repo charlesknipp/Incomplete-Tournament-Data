@@ -141,6 +141,9 @@ def merge(szn,simple):
     return df
 
 
+# still not sure if the hash works... kinda don't want to out of fear of
+# potential disappointment
+
 for szn in range(1978, 2014):
 
     df = merge(szn, 'n')

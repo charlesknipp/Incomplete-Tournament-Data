@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
+from tqdm import tqdm
 import html5lib
 import json
 
@@ -23,7 +24,7 @@ for i in range(1,164):
     key[key2[i]] = key1[i]
 
 # iterate seasonally to extract all div 1A teams from sports reference
-for szn in range(1978, 2018):
+for szn in tqdm(range(1978, 2018)):
 
     url = 'https://www.sports-reference.com/cfb/years/%d-standings.html' % szn
 
