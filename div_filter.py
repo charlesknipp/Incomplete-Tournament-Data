@@ -7,7 +7,7 @@ import json
 # dictionary to translate observations between data sets
 div1_dict = {}
 
-with open('research/incomplete_tournaments/new shit/div1A/key.json') as js:
+with open('numeric.json') as js:
     key = json.load(js)
 
 # iterate seasonally to extract all div 1A teams from sports reference
@@ -43,5 +43,5 @@ for szn in range(1978, 2018):
     div1_dict[szn] = sorted([x for i, x in enumerate(div1_teams) if i == div1_teams.index(x)])
 
 
-with open('research/incomplete_tournaments/new shit/div1A/div1A_2.json', 'w') as filehandle:
+with open('div1A.json', 'w') as filehandle:
     json.dump(div1_dict, filehandle, indent=4)

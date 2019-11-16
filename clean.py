@@ -8,10 +8,10 @@ pd.set_option('display.max_columns', None)
 
 # import the json containing a time variant dictionary of all div 1A teams
 
-with open('new stuff/div1A.json') as js1:
+with open('div1A.json') as js1:
     div1_json = json.load(js1)
 
-with open('new stuff/numeric.json') as js2:
+with open('numeric.json') as js2:
     num_json = json.load(js2)
 
 
@@ -20,10 +20,10 @@ with open('new stuff/numeric.json') as js2:
 def merge(szn,simple):
     
     if szn < 2009:
-        path = 'new stuff/raw data/ncaa%dlines.csv' % szn
+        path = 'raw data/ncaa%dlines.csv' % szn
 
     else:
-        path = 'new stuff/raw data/cfb%dlines.csv' % szn
+        path = 'raw data/cfb%dlines.csv' % szn
     
     columns = [
         'Date', 'Visitor', 'Visitor Score', 'Home Team', 'Home Score', 'Line'
@@ -36,7 +36,7 @@ def merge(szn,simple):
         keep_default_na = True
     )
 
-    path_bowl = 'new stuff/raw data/bowl%dlines.csv' % szn
+    path_bowl = 'raw data/bowl%dlines.csv' % szn
 
     df_bowl = pd.read_csv(
         filepath_or_buffer = path_bowl,
@@ -149,7 +149,7 @@ for szn in range(1978, 2014):
     df = merge(szn, 'n')
     print(szn, df.dtypes)
     
-    path = 'new stuff/clean data/%d.csv' % szn
+    path = 'clean data/%d.csv' % szn
     
     df.to_csv(
         path_or_buf = path
