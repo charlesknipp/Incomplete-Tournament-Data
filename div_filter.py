@@ -4,11 +4,23 @@ from bs4 import BeautifulSoup
 import html5lib
 import json
 
+
 # dictionary to translate observations between data sets
 div1_dict = {}
 
-with open('numeric.json') as js:
-    key = json.load(js)
+with open('comparison/key1.json') as js:
+    key1_r = json.load(js)
+
+with open('comparison/key2.json') as js:
+    key2_r = json.load(js)
+
+# sports reference is key 2 
+key1 = {v: k for k, v in key1_r.items()}
+key2 = {v: k for k, v in key2_r.items()}
+key = {}
+
+for i in range(1,164):
+    key[key2[i]] = key1[i]
 
 # iterate seasonally to extract all div 1A teams from sports reference
 for szn in range(1978, 2018):
@@ -43,5 +55,5 @@ for szn in range(1978, 2018):
     div1_dict[szn] = sorted([x for i, x in enumerate(div1_teams) if i == div1_teams.index(x)])
 
 
-with open('div1A.json', 'w') as filehandle:
+with open('div1A2.json', 'w') as filehandle:
     json.dump(div1_dict, filehandle, indent=4)
