@@ -141,9 +141,6 @@ def merge(szn,simple):
     return df
 
 
-# I am running into an issue adding the hashes to the datasets due to a nice
-# little OverflowError from ... + 1000 * d['L'] + ...
-
 for szn in range(1978, 2014):
 
     df = merge(szn, 'n')
