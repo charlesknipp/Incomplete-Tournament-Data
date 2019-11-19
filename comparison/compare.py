@@ -26,7 +26,7 @@ for szn in range(2011, 2018):
     df_f = pd.read_excel(
         io = path1,
         header = 0,
-        usecols = ['W', 'W Pts', 'L', 'L Pts', 'M']
+        usecols = ['W', 'W Pts', 'L', 'L Pts', 'W Spr']
     )
 
     if szn < 2014:
@@ -75,14 +75,14 @@ for szn in range(2011, 2018):
     # printErrors(missing)
 
     if szn > 2013:
-        df_f = df_f[['Hash','M']].set_index('Hash')
+        df_f = df_f[['Hash','W Spr']].set_index('Hash')
         df_sr = df_sr.set_index('Hash')
 
         df = df_sr.join(df_f)
         df = df.reset_index()
 
         df = df.rename(
-            columns={'M': "Line"}
+            columns={'W Spr': "Line"}
         )
 
         path = 'clean data/%d.csv' % szn
