@@ -1,13 +1,23 @@
-from bs4 import BeautifulSoup
 import pandas as pd
 import numpy as np
-import requests
-import html5lib
 import json
 import re
 
 
 # pd.set_option('display.max_rows', 1000)
+
+def printErrors(x):
+    print('\n', szn, '\n')
+
+    for i in sorted(x):
+        value = '%0*d' % (12,i)
+        print(
+            value[0:3], ' - ',
+            value[3:6], ' - ',
+            value[6:9], ' - ',
+            value[9:]
+        )
+
 
 for szn in range(2011, 2018):
 
@@ -16,7 +26,7 @@ for szn in range(2011, 2018):
     df_f = pd.read_excel(
         io = path1,
         header = 0,
-        usecols = ['W', 'W Pts', 'L', 'L Pts']
+        usecols = ['W', 'W Pts', 'L', 'L Pts', 'M']
     )
 
     if szn < 2014:
@@ -60,14 +70,23 @@ for szn in range(2011, 2018):
         if j not in df_f_hash:
             missing.append(j)
 
-    print('\n', szn, '\n')
+    df_f['Hash'] = df_f_hash
 
-    for i in sorted(missing):
-        value = '%0*d' % (12,i)
-        print(
-            value[0:3], ' - ',
-            value[3:6], ' - ',
-            value[6:9], ' - ',
-            value[9:]
+    # printErrors(missing)
+
+    if szn > 2013:
+        df_f = df_f[['Hash','M']].set_index('Hash')
+        df_sr = df_sr.set_index('Hash')
+
+        df = df_sr.join(df_f)
+        df = df.reset_index()
+
+        df = df.rename(
+            columns={'M': "Line"}
         )
-    
+
+        path = 'clean data/%d.csv' % szn
+
+        df.to_csv(
+            path_or_buf = path
+        )
